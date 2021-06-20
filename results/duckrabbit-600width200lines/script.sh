@@ -3,7 +3,7 @@ python3 imageopt.py duck-rabbit-650.jpg \
 --net vgg \
 --seed 1234 \
 --width 600 \
---lines 500 \
+--lines 300 \
 --init-sigma2 1.0 \
 --final-sigma2 1.0 \
 --iters 1000 \
@@ -13,3 +13,4 @@ python3 imageopt.py duck-rabbit-650.jpg \
 --init-pdf results/hoge/init.pdf \
 --final-pdf results/hoge/final.pdf \
 --device cuda:0
+
