@@ -1,8 +1,8 @@
 python3 imageopt.py duck-rabbit-650.jpg \
 --loss LPIPSLoss \
 --seed 1234 \
---width 600 \
---lines 100 \
+--width 300 \
+--lines 1000 \
 --init-sigma2 1.0 \
 --final-sigma2 1.0 \
 --iters 1000 \
