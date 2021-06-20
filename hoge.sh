@@ -2,11 +2,11 @@ python3 imageopt.py duck-rabbit-650.jpg \
 --loss LPIPSLoss \
 --seed 1234 \
 --width 600 \
---points 500 \
---init-sigma2 1.0 \
---final-sigma2 1.0 \
---iters 1000 \
---lr 0.01 \
+--points 100 \
+--iters 2000 \
+--init-sigma2 2.0 \
+--final-sigma2 2.0 \
+--lr 0.015 \
 --init-raster results/hoge/init.png \
 --final-raster results/hoge/final.png \
 --init-pdf results/hoge/init.pdf \
