@@ -1,5 +1,5 @@
 python3 imageopt.py duck-rabbit-650.jpg \
---loss BlurredMSELoss \
+--loss LPIPSLoss \
 --seed 1234 \
 --width 600 \
 --lines 500 \
