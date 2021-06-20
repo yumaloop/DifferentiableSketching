@@ -12,3 +12,4 @@ python3 imageopt.py duck-rabbit-650.jpg \
 --init-pdf results/hoge/init.pdf \
 --final-pdf results/hoge/final.pdf \
 --device cuda:0 \
+--colour
