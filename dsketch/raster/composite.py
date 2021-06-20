@@ -69,7 +69,8 @@ def over(rasters: torch.Tensor, dim=1, keepdim=False) -> torch.Tensor:
       a torch.Tensor of size [batch, *, D*] representing the batch of composited images
 
     """
-    rasters = rasters.clip(0, 1)
+    # rasters = rasters.clip(0, 1)
+    rasters = torch.clamp(rasters, min=0, max=1)
 
     linv = (1 - rasters) + 1e-10  # .clamp(0)
     linvrasters = linv.log()
